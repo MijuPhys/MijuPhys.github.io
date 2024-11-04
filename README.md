@@ -17,3 +17,16 @@
     </footer>
 </body>
 </html>
+
+<section id="about-me">
+    <h2>About Me</h2>
+    <p>Hi, I'm Mijanul Islam, a physicist specializing in the magnetic, dielectric, and structural properties of multiferroic and pyroelectric oxides. I have extensive experience with synchrotron data analysis and have published my research in international journals.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <ul>
+        <li>Email: mijuphys@example.com</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/mijuphys" target="_blank">Mijanul Islam</a></li>
+    </ul>
+</section>
