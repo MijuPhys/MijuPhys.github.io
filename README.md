@@ -13,7 +13,7 @@
         <p>This is a simple personal site hosted on GitHub Pages.</p>
     </header>
     <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
+        <p>© 2024 Mijanul Islam. All rights reserved.</p>
     </footer>
 </body>
 </html>
