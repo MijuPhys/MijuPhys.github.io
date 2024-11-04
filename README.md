@@ -26,7 +26,6 @@
 <section id="contact">
     <h2>Contact Information</h2>
     <ul>
-        <li>Email: mijuphys@example.com</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/mijuphys" target="_blank">Mijanul Islam</a></li>
-    </ul>
+        <li>Email: miju.phys@gmail.com</li>
+        </ul>
 </section>
