@@ -3,7 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+#home .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
+#home .content {
+    max-width: 600px;
+}
+
+#home .profile-photo {
+    flex-shrink: 0; /* Prevent the photo from shrinking */
+    margin-left: 20px; /* Space between the text and the photo */
+}
+
+#home .profile-photo img {
+    width: 150px; /* Size of the photo */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f2f5;
