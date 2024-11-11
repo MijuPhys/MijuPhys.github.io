@@ -12,6 +12,7 @@ body {
     position: relative;
 }
 
+/* Bubble Background Animation */
 .bubble-bg {
     position: absolute;
     width: 100%;
@@ -27,6 +28,7 @@ body {
     100% { transform: translateY(0); }
 }
 
+/* Navigation Bar */
 nav {
     background-color: #6A82FB;
     padding: 20px;
@@ -61,6 +63,7 @@ nav ul li a:hover, nav ul li a.active {
     transform: translateY(-3px);
 }
 
+/* Header Banner */
 header {
     background: linear-gradient(135deg, #6A82FB, #FC5C7D);
     color: white;
@@ -75,6 +78,7 @@ header {
     padding: 20px;
 }
 
+/* Sections Styling */
 .profile, .research, .publications {
     background-color: #fff;
     padding: 30px;
@@ -116,6 +120,7 @@ h2::after {
     color: #6A82FB;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
