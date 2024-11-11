@@ -5,41 +5,20 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    padding: 10px;
-    color: white;
+.home-section {
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.section {
-    display: none;
     padding: 50px;
-    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
 }
 
-.section.active {
-    display: block;
-}
-
-.content h1, .content h2 {
+.home-section h1 {
+    font-size: 36px;
     color: #333;
+}
+
+.profile-picture {
+    margin-top: 20px;
 }
 
 .photo {
@@ -48,10 +27,5 @@ nav ul li a {
     border-radius: 50%;
     border: 5px solid #ddd;
     object-fit: cover;
-}
-
-#research, #publications, #contact {
-    background-color: #fff;
-    border-top: 2px solid #ddd;
 }
 
