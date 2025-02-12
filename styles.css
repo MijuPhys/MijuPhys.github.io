@@ -1,4 +1,4 @@
-/* Light Green Background */
+/* General Styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,14 +7,65 @@ body {
     color: #333;
 }
 
+/* Header with Background Image */
+.header-bg {
+    background: url('header-bg.png') no-repeat center center/cover; /* Background Image */
+    height: 220px;  /* Adjusted to look proportional */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
-/* Header Styling */
-header {
-    background: #4a47a3;
-    color: white;
+/* Dark Overlay for Readability */
+.header-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Light dark overlay */
+    z-index: 1;
+}
+
+/* Ensure Content is Above Overlay */
+.profile-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+/* Profile Image */
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    object-fit: cover;
+}
+
+/* Profile Text */
+.profile-info h1 {
+    font-size: 24px;
+    color: white; /* Ensures visibility over background */
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: white; /* Ensures visibility over background */
+}
+
+/* Navigation Menu */
+nav {
     text-align: center;
-    padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    background: #2c3e50;
 }
 
 nav ul {
@@ -28,7 +79,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffcc70;
+    color: white;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -58,40 +109,36 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 /* Profile section layout */
 .profile-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 15px;
-    background: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background: transparent;
 }
 
 /* Profile Image Styling - Fixed 4x5 cm */
 .profile-photo {
-    width: 40mm;  /* 4 cm */
-    height: 50mm; /* 5 cm */
-    border-radius: 10px; /* Rounded corners */
-    border: 2px solid #ddd; /* Light border */
-    object-fit: cover; /* Ensures the image fits properly */
+    width: 40mm;
+    height: 50mm;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    object-fit: cover;
     margin-right: 20px;
-    display: block;
 }
 
-
-/* Profile text */
+/* Profile Text */
 .profile-info h1 {
-    color: #4a47a3;
+    color: white;
     font-size: 26px;
 }
 
 .profile-info p {
-    color: #555;
+    color: white;
     font-size: 18px;
 }
-
 
 /* Publications List Styling */
 #publications ul {
@@ -103,67 +150,4 @@ footer {
     font-size: 18px;
     margin-bottom: 12px;
     line-height: 1.5;
-}
-
-
-/* Header with Background Image */
-header {
-    position: relative;
-    background: url('header-bg.jpg') no-repeat center center/cover; /* Background Image */
-    color: white;  /* Text Color */
-    text-align: center;
-    padding: 80px 20px;
-}
-
-/* Header Background Styling with Reduced Height */
-.header-bg {
-    background: url('header-bg.png') no-repeat center center/cover; /* Background Image */
-    height: 180px;  /* Adjust height to match profile photo */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-/* Dark Overlay for Readability */
-.header-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* Light dark overlay */
-    z-index: 1;
-}
-
-/* Ensure Content is Above Overlay */
-.profile-container {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-/* Profile Image */
-.profile-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #ddd;
-    object-fit: cover;
-}
-
-/* Profile Text */
-.profile-info h1 {
-    font-size: 24px;
-    color: white; /* Ensures visibility over background */
-    margin-bottom: 5px;
-}
-
-.profile-info p {
-    font-size: 16px;
-    color: white; /* Ensures visibility over background */
 }
