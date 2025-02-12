@@ -1,15 +1,19 @@
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: #333;
 }
 
+/* Header Styling */
 header {
-    background-color: #333;
-    padding: 10px;
+    background: #4a47a3;
     color: white;
     text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -19,38 +23,37 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: red;
-    text-decoration: none;
+    color: #ffcc70;
     font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.section {
-    display: none;
-    padding: 50px;
+/* Section Styling */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4a47a3;
+}
+
+/* Footer */
+footer {
+    background: #4a47a3;
+    color: white;
     text-align: center;
-}
-
-.section.active {
-    display: block;
-}
-
-.content h1, .content h2 {
-    color: #333;
-}
-
-.photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #ddd;
-    object-fit: cover;
-}
-
-#research, #publications, #contact {
-    background-color: #fff;
-    border-top: 2px solid #ddd;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
