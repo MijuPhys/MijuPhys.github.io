@@ -106,3 +106,31 @@ footer {
 }
 
 
+/* Header with Background Image */
+header {
+    position: relative;
+    background: url('header-bg.jpg') no-repeat center center/cover; /* Background Image */
+    color: white;  /* Text Color */
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Container to Ensure Readable Text Over Image */
+.header-container {
+    background: rgba(0, 0, 0, 0.6); /* Dark Transparent Overlay */
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+/* Adjust Text Appearance */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
