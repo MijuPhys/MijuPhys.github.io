@@ -70,11 +70,12 @@ footer {
 
 /* Profile photo */
 .profile-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 3px solid #ddd;
+    width: 40mm;  /* 4 cm */
+    height: 50mm; /* 5 cm */
+    border-radius: 10px; /* Slightly rounded corners */
+    border: 2px solid #ddd; /* Light border */
     object-fit: cover;
+    margin-right: 20px;
 }
 
 /* Profile text */
