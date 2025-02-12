@@ -68,15 +68,17 @@ footer {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile photo */
+/* Profile Image Styling - Fixed 4x5 cm */
 .profile-photo {
     width: 40mm;  /* 4 cm */
     height: 50mm; /* 5 cm */
-    border-radius: 10px; /* Slightly rounded corners */
+    border-radius: 10px; /* Rounded corners */
     border: 2px solid #ddd; /* Light border */
-    object-fit: cover;
+    object-fit: cover; /* Ensures the image fits properly */
     margin-right: 20px;
+    display: block;
 }
+
 
 /* Profile text */
 .profile-info h1 {
