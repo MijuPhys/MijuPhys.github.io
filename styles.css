@@ -9,7 +9,7 @@ body {
 
 /* Header with Background Image */
 .header-bg {
-    background: url('header-bg.png') no-repeat center center/cover; /* Background Image */
+    background: url('header-bg.jpg') no-repeat center center/cover; /* Background Image */
     height: 220px;  /* Adjusted to look proportional */
     display: flex;
     flex-direction: column;
