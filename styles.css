@@ -57,3 +57,33 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Profile section layout */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile photo */
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    object-fit: cover;
+}
+
+/* Profile text */
+.profile-info h1 {
+    color: #4a47a3;
+    font-size: 26px;
+}
+
+.profile-info p {
+    color: #555;
+    font-size: 18px;
+}
