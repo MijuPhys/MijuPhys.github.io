@@ -135,8 +135,10 @@ footer {
     margin-bottom: 12px;
     line-height: 1.5;
 }
-/* Reduce width for Home and Contact sections */
+/* Reduce width for Home and Contact sections & center them */
 #home, #contact {
     width: 70%; /* Decreased width (default was 80%) */
+    margin: 30px auto; /* Centers the section */
 }
+
 
