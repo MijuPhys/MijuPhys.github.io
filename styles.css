@@ -54,13 +54,13 @@ body {
 /* Profile Text */
 .profile-info h1 {
     font-size: 26px;
-    color: white;
+    color: gold;
     margin-bottom: 5px;
 }
 
 .profile-info p {
     font-size: 18px;
-    color: white;
+    color: gold;
     text-align: center;
 }
 
