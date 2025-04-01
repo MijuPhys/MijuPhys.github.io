@@ -1,3 +1,32 @@
+/* Apply Times New Roman to the entire body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Profile Name */
+.profile-info h1 {
+    font-size: 26px;
+    color: #FFD700;  /* Gold color (change if needed) */
+    font-family: 'Times New Roman', Times, serif;  /* Apply font */
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Subtitle Text */
+.profile-info p {
+    font-size: 18px;
+    color: #FFA500; /* Soft Orange (change if needed) */
+    font-family: 'Times New Roman', Times, serif; /* Apply font */
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Styling */
+.section {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
