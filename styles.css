@@ -5,7 +5,7 @@ body {
 
 /* Profile Name */
 .profile-info h1 {
-    font-size: 26px;
+    font-size: 30px;
     color: #FFD700;  /* Gold color (change if needed) */
     font-family: 'Times New Roman', Times, serif;  /* Apply font */
     margin-bottom: 5px;
@@ -15,8 +15,8 @@ body {
 
 /* Subtitle Text */
 .profile-info p {
-    font-size: 18px;
-    color: #FFA500; /* Soft Orange (change if needed) */
+    font-size: 23px;
+    color: #D3D3D3; /* Soft Orange (change if needed) */
     font-family: 'Times New Roman', Times, serif; /* Apply font */
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
