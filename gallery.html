@@ -2,29 +2,41 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title>Research Gallery | Mijanul Islam</title>
 
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <link rel="stylesheet"
+          href="styles.css">
+
+    <script defer
+            src="script.js"></script>
+
 </head>
+
 
 <body>
 
-<!-- =========================================================
+
+<!-- =====================================================
      HEADER
-     ========================================================= -->
+     ===================================================== -->
 
 <header class="gallery-header">
 
     <div class="gallery-header-content">
 
-        <h1>Research & Academic Gallery</h1>
+        <h1>
+            Research & Academic Gallery
+        </h1>
 
         <p>
-            Experimental condensed matter physics, large-scale facilities,
+            Experimental condensed matter physics,
+            large-scale facilities, neutron scattering,
             conferences and academic activities
         </p>
 
@@ -38,7 +50,9 @@
         <ul>
 
             <li>
-                <a href="index.html#home">Home</a>
+                <a href="index.html#home">
+                    Home
+                </a>
             </li>
 
             <li>
@@ -84,9 +98,10 @@
 </header>
 
 
-<!-- =========================================================
-     MAIN GALLERY
-     ========================================================= -->
+
+<!-- =====================================================
+     MAIN
+     ===================================================== -->
 
 <main class="gallery-page">
 
@@ -100,91 +115,341 @@
         </h2>
 
         <p>
-            A visual record of research activities, experiments at
-            large-scale facilities, neutron scattering schools,
-            conferences, poster presentations and academic activities.
+            A visual record of research activities,
+            synchrotron experiments, neutron scattering,
+            conferences, workshops and academic activities.
         </p>
 
     </section>
 
 
 
-    <!-- =====================================================
+    <!-- =================================================
          FILTER BUTTONS
-         ===================================================== -->
+         ================================================= -->
 
     <div class="gallery-filters">
 
         <button
             class="filter-btn active"
             data-filter="all">
+
             All
+
         </button>
+
 
         <button
             class="filter-btn"
-            data-filter="facility">
-            Large-Scale Facilities
+            data-filter="desy">
+
+            DESY
+
         </button>
+
+
+        <button
+            class="filter-btn"
+            data-filter="elettra">
+
+            Elettra Synchrotron
+
+        </button>
+
 
         <button
             class="filter-btn"
             data-filter="neutron">
+
             Neutron Scattering
+
         </button>
+
 
         <button
             class="filter-btn"
-            data-filter="conference">
-            Conferences & Posters
-        </button>
+            data-filter="workshop">
 
-        <button
-            class="filter-btn"
-            data-filter="academic">
-            Academic Activities
+            Workshops & Schools
+
         </button>
 
     </div>
 
 
 
-    <!-- =====================================================
+    <!-- =================================================
          PHOTO GRID
-         ===================================================== -->
+         ================================================= -->
 
     <section class="gallery-grid">
 
 
+
         <!-- =================================================
-             LARGE-SCALE FACILITIES
+             DESY
              ================================================= -->
 
 
-        <!-- Elettra -->
+        <article
+            class="gallery-card"
+            data-category="desy">
+
+            <a
+                href="gallery/research/DESY1.jpg"
+                class="gallery-image-link"
+                data-title="Research Activity at DESY"
+                data-location="DESY, Hamburg, Germany">
+
+                <img
+                    src="gallery/research/DESY1.jpg"
+                    alt="Research activity at DESY"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    DESY
+                </span>
+
+                <h3>
+                    Research Activity at DESY
+                </h3>
+
+                <p>
+                    Experimental research activity at
+                    DESY, Hamburg, Germany
+                </p>
+
+            </div>
+
+        </article>
+
+
 
         <article
             class="gallery-card"
-            data-category="facility">
+            data-category="desy">
 
             <a
-                href="gallery/research/Elettra5.jpg"
+                href="gallery/research/DESY2.jpg"
+                class="gallery-image-link"
+                data-title="Experimental Research at DESY"
+                data-location="DESY, Hamburg, Germany">
+
+                <img
+                    src="gallery/research/DESY2.jpg"
+                    alt="Experimental research at DESY"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    DESY
+                </span>
+
+                <h3>
+                    Experimental Research at DESY
+                </h3>
+
+                <p>
+                    Large-scale facility research activity
+                    at DESY
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="gallery-card"
+            data-category="desy">
+
+            <a
+                href="gallery/research/DESY3.jpg"
+                class="gallery-image-link"
+                data-title="Research Visit to DESY"
+                data-location="DESY, Hamburg, Germany">
+
+                <img
+                    src="gallery/research/DESY3.jpg"
+                    alt="Research visit to DESY"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    DESY
+                </span>
+
+                <h3>
+                    Research Visit to DESY
+                </h3>
+
+                <p>
+                    Research and experimental activities
+                    at DESY
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="gallery-card"
+            data-category="desy">
+
+            <a
+                href="gallery/research/DESY4.jpg"
+                class="gallery-image-link"
+                data-title="Synchrotron Research at DESY"
+                data-location="DESY, Hamburg, Germany">
+
+                <img
+                    src="gallery/research/DESY4.jpg"
+                    alt="Synchrotron research at DESY"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    DESY
+                </span>
+
+                <h3>
+                    Synchrotron Research at DESY
+                </h3>
+
+                <p>
+                    Experimental research using
+                    large-scale facilities
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="gallery-card"
+            data-category="desy">
+
+            <a
+                href="gallery/research/DESY5.jpg"
+                class="gallery-image-link"
+                data-title="Research Activities at DESY"
+                data-location="DESY, Hamburg, Germany">
+
+                <img
+                    src="gallery/research/DESY5.jpg"
+                    alt="Research activities at DESY"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    DESY
+                </span>
+
+                <h3>
+                    Research Activities at DESY
+                </h3>
+
+                <p>
+                    Scientific research and experimental
+                    activities at DESY
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             DESY P21.1
+             ================================================= -->
+
+
+        <article
+            class="gallery-card"
+            data-category="desy">
+
+            <a
+                href="gallery/research/desy-p21.jpg"
+                class="gallery-image-link"
+                data-title="P21.1 Beamline at DESY"
+                data-location="P21.1 Beamline, DESY, Hamburg, Germany">
+
+                <img
+                    src="gallery/research/desy-p21.jpg"
+                    alt="P21.1 beamline at DESY"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    DESY
+                </span>
+
+                <h3>
+                    P21.1 Beamline at DESY
+                </h3>
+
+                <p>
+                    High-energy X-ray diffraction research
+                    at the P21.1 beamline
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             ELETTRA
+             ================================================= -->
+
+
+        <article
+            class="gallery-card"
+            data-category="elettra">
+
+            <a
+                href="gallery/research/Elettra1.jpg"
                 class="gallery-image-link"
                 data-title="Elettra Synchrotron"
                 data-location="Elettra Synchrotron, Italy">
 
                 <img
-                    src="gallery/research/Elettra5.jpg"
-                    alt="Elettra Synchrotron research visit"
+                    src="gallery/research/Elettra1.jpg"
+                    alt="Elettra Synchrotron"
                     loading="lazy">
 
             </a>
 
-
             <div class="gallery-caption">
 
                 <span class="gallery-category">
-                    Large-Scale Facilities
+                    Elettra Synchrotron
                 </span>
 
                 <h3>
@@ -192,8 +457,8 @@
                 </h3>
 
                 <p>
-                    Research visit and synchrotron experimental
-                    activities · Italy
+                    Research visit and experimental
+                    activities at Elettra, Italy
                 </p>
 
             </div>
@@ -202,30 +467,146 @@
 
 
 
-        <!-- Elettra XAFS -->
+        <article
+            class="gallery-card"
+            data-category="elettra">
+
+            <a
+                href="gallery/research/Elettra2.jpg"
+                class="gallery-image-link"
+                data-title="Research Activity at Elettra"
+                data-location="Elettra Synchrotron, Italy">
+
+                <img
+                    src="gallery/research/Elettra2.jpg"
+                    alt="Research activity at Elettra"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    Elettra Synchrotron
+                </span>
+
+                <h3>
+                    Research Activity at Elettra
+                </h3>
+
+                <p>
+                    Synchrotron-based experimental
+                    research · Italy
+                </p>
+
+            </div>
+
+        </article>
+
+
 
         <article
             class="gallery-card"
-            data-category="facility">
+            data-category="elettra">
 
             <a
-                href="gallery/research/Elettra6.jpg.jpeg"
+                href="gallery/research/Elettra3.jpg"
+                class="gallery-image-link"
+                data-title="Experimental Research at Elettra"
+                data-location="Elettra Synchrotron, Italy">
+
+                <img
+                    src="gallery/research/Elettra3.jpg"
+                    alt="Experimental research at Elettra"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    Elettra Synchrotron
+                </span>
+
+                <h3>
+                    Experimental Research at Elettra
+                </h3>
+
+                <p>
+                    Research and synchrotron experimental
+                    activities
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             ELETTRA XAFS
+             ================================================= -->
+
+
+        <article
+            class="gallery-card"
+            data-category="elettra">
+
+            <a
+                href="gallery/research/Elettra-XAFS-Setup.jpg"
+                class="gallery-image-link"
+                data-title="XAFS Experimental Setup"
+                data-location="Elettra Synchrotron, Italy">
+
+                <img
+                    src="gallery/research/Elettra-XAFS-Setup.jpg"
+                    alt="XAFS experimental setup at Elettra"
+                    loading="lazy">
+
+            </a>
+
+            <div class="gallery-caption">
+
+                <span class="gallery-category">
+                    Elettra Synchrotron
+                </span>
+
+                <h3>
+                    XAFS Experimental Setup
+                </h3>
+
+                <p>
+                    X-ray absorption spectroscopy
+                    experimental setup at Elettra
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="gallery-card"
+            data-category="elettra">
+
+            <a
+                href="gallery/research/elettra-xafs.jpg"
                 class="gallery-image-link"
                 data-title="XAFS Experiment at Elettra"
                 data-location="Elettra Synchrotron, Italy">
 
                 <img
-                    src="gallery/research/Elettra6.jpg.jpeg"
-                    alt="XAFS experiment at Elettra Synchrotron"
+                    src="gallery/research/elettra-xafs.jpg"
+                    alt="XAFS experiment at Elettra"
                     loading="lazy">
 
             </a>
 
-
             <div class="gallery-caption">
 
                 <span class="gallery-category">
-                    Large-Scale Facilities
+                    Elettra Synchrotron
                 </span>
 
                 <h3>
@@ -233,48 +614,8 @@
                 </h3>
 
                 <p>
-                    Experimental activity at Elettra
-                    Synchrotron · Italy
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- BARC -->
-
-        <article
-            class="gallery-card"
-            data-category="facility">
-
-            <a
-                href="gallery/research/BARC.jpeg"
-                class="gallery-image-link"
-                data-title="Research Activity at BARC"
-                data-location="Bhabha Atomic Research Centre, Mumbai, India">
-
-                <img
-                    src="gallery/research/BARC.jpeg"
-                    alt="Research activity at BARC"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Large-Scale Facilities
-                </span>
-
-                <h3>
-                    Research Activity at BARC
-                </h3>
-
-                <p>
-                    Bhabha Atomic Research Centre · Mumbai, India
+                    Experimental investigation using
+                    X-ray absorption spectroscopy
                 </p>
 
             </div>
@@ -284,29 +625,26 @@
 
 
         <!-- =================================================
-             NEUTRON SCATTERING
+             NEUTRON / WORKSHOP
              ================================================= -->
 
 
-        <!-- AONSA 1 -->
-
         <article
             class="gallery-card"
             data-category="neutron">
 
             <a
-                href="gallery/research/AONSA_Neutron_School.JPG"
+                href="gallery/research/workshop-01.jpg"
                 class="gallery-image-link"
-                data-title="AONSA Neutron School"
-                data-location="Asia-Oceania Neutron Scattering Association Neutron School">
+                data-title="Neutron Scattering Workshop"
+                data-location="Neutron Scattering Workshop">
 
                 <img
-                    src="gallery/research/AONSA_Neutron_School.JPG"
-                    alt="AONSA Neutron School"
+                    src="gallery/research/workshop-01.jpg"
+                    alt="Neutron scattering workshop"
                     loading="lazy">
 
             </a>
-
 
             <div class="gallery-caption">
 
@@ -315,348 +653,12 @@
                 </span>
 
                 <h3>
-                    AONSA Neutron School
+                    Neutron Scattering Workshop
                 </h3>
 
                 <p>
-                    13th Asia-Oceania Neutron Scattering
-                    Association Neutron School · 2024
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- AONSA 2 -->
-
-        <article
-            class="gallery-card"
-            data-category="neutron">
-
-            <a
-                href="gallery/research/AONSA_Neutron_School2.JPG"
-                class="gallery-image-link"
-                data-title="AONSA Neutron School"
-                data-location="Asia-Oceania Neutron Scattering Association Neutron School">
-
-                <img
-                    src="gallery/research/AONSA_Neutron_School2.JPG"
-                    alt="AONSA Neutron School activity"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Neutron Scattering
-                </span>
-
-                <h3>
-                    AONSA Neutron School
-                </h3>
-
-                <p>
-                    Neutron scattering school and
-                    academic activities · 2024
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- AONSA 3 -->
-
-        <article
-            class="gallery-card"
-            data-category="neutron">
-
-            <a
-                href="gallery/research/AONSA_Neutron_School3.JPG"
-                class="gallery-image-link"
-                data-title="AONSA Neutron School"
-                data-location="Asia-Oceania Neutron Scattering Association Neutron School">
-
-                <img
-                    src="gallery/research/AONSA_Neutron_School3.JPG"
-                    alt="AONSA Neutron School academic activity"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Neutron Scattering
-                </span>
-
-                <h3>
-                    AONSA Neutron School
-                </h3>
-
-                <p>
-                    Neutron scattering training and
-                    academic interaction · 2024
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- IIT Guwahati -->
-
-        <article
-            class="gallery-card"
-            data-category="neutron">
-
-            <a
-                href="gallery/research/Neutron-Schol-IITG.jpeg"
-                class="gallery-image-link"
-                data-title="Neutron Scattering School at IIT Guwahati"
-                data-location="IIT Guwahati, India">
-
-                <img
-                    src="gallery/research/Neutron-Schol-IITG.jpeg"
-                    alt="Neutron scattering school at IIT Guwahati"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Neutron Scattering
-                </span>
-
-                <h3>
-                    Neutron Scattering School at IIT Guwahati
-                </h3>
-
-                <p>
-                    Academic training and workshop activity ·
-                    IIT Guwahati
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- =================================================
-             CONFERENCES & POSTERS
-             ================================================= -->
-
-
-        <!-- AONSA Poster -->
-
-        <article
-            class="gallery-card"
-            data-category="conference">
-
-            <a
-                href="gallery/research/Poster-AONSA.jpeg"
-                class="gallery-image-link"
-                data-title="AONSA Neutron School Poster"
-                data-location="AONSA Neutron School">
-
-                <img
-                    src="gallery/research/Poster-AONSA.jpeg"
-                    alt="AONSA neutron school poster"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Conferences & Posters
-                </span>
-
-                <h3>
-                    AONSA Neutron School Poster
-                </h3>
-
-                <p>
-                    Poster presentation and academic activity · 2024
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- AONSA Poster 2 -->
-
-        <article
-            class="gallery-card"
-            data-category="conference">
-
-            <a
-                href="gallery/research/Poster-AONSA2.jpeg"
-                class="gallery-image-link"
-                data-title="AONSA Poster Presentation"
-                data-location="AONSA Neutron School">
-
-                <img
-                    src="gallery/research/Poster-AONSA2.jpeg"
-                    alt="AONSA poster presentation"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Conferences & Posters
-                </span>
-
-                <h3>
-                    AONSA Poster Presentation
-                </h3>
-
-                <p>
-                    Poster presentation and scientific
-                    interaction · 2024
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- GITAM -->
-
-        <article
-            class="gallery-card"
-            data-category="conference">
-
-            <a
-                href="gallery/research/Poster-Presentation-GITAM.jpeg"
-                class="gallery-image-link"
-                data-title="Poster Presentation at GITAM"
-                data-location="GITAM University">
-
-                <img
-                    src="gallery/research/Poster-Presentation-GITAM.jpeg"
-                    alt="Poster presentation at GITAM"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Conferences & Posters
-                </span>
-
-                <h3>
-                    Poster Presentation at GITAM
-                </h3>
-
-                <p>
-                    Scientific poster presentation · GITAM University
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- =================================================
-             ACADEMIC ACTIVITIES
-             ================================================= -->
-
-
-        <!-- UGC DAE Experiment -->
-
-        <article
-            class="gallery-card"
-            data-category="academic">
-
-            <a
-                href="gallery/research/UGC-DAE-KC-Expt.jpeg"
-                class="gallery-image-link"
-                data-title="UGC-DAE Consortium Experimental Activity"
-                data-location="UGC-DAE Consortium for Scientific Research">
-
-                <img
-                    src="gallery/research/UGC-DAE-KC-Expt.jpeg"
-                    alt="UGC-DAE Consortium experimental activity"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Academic Activities
-                </span>
-
-                <h3>
-                    UGC-DAE Consortium Experimental Activity
-                </h3>
-
-                <p>
-                    Experimental research activity at
-                    UGC-DAE Consortium
-                </p>
-
-            </div>
-
-        </article>
-
-
-
-        <!-- UGC DAE Sample -->
-
-        <article
-            class="gallery-card"
-            data-category="academic">
-
-            <a
-                href="gallery/research/UGC-DAE-KC-Sample.jpeg"
-                class="gallery-image-link"
-                data-title="Sample Preparation & Research Activity"
-                data-location="UGC-DAE Consortium for Scientific Research">
-
-                <img
-                    src="gallery/research/UGC-DAE-KC-Sample.jpeg"
-                    alt="Research sample and experimental activity"
-                    loading="lazy">
-
-            </a>
-
-
-            <div class="gallery-caption">
-
-                <span class="gallery-category">
-                    Academic Activities
-                </span>
-
-                <h3>
-                    Sample Preparation & Research Activity
-                </h3>
-
-                <p>
-                    Research sample and experimental activity ·
-                    UGC-DAE Consortium
+                    Academic training and workshop
+                    activity in neutron scattering
                 </p>
 
             </div>
@@ -670,25 +672,31 @@
 
 
 
-<!-- =========================================================
+<!-- =====================================================
      LIGHTBOX
-     ========================================================= -->
+     ===================================================== -->
 
 <div
     class="gallery-lightbox"
     id="galleryLightbox"
     aria-hidden="true">
 
+
     <button
         class="lightbox-close"
         aria-label="Close image">
+
         &times;
+
     </button>
+
 
     <button
         class="lightbox-prev"
         aria-label="Previous image">
+
         &#10094;
+
     </button>
 
 
@@ -698,6 +706,7 @@
             id="lightboxImage"
             src=""
             alt="">
+
 
         <div class="lightbox-caption">
 
@@ -713,64 +722,79 @@
     <button
         class="lightbox-next"
         aria-label="Next image">
+
         &#10095;
+
     </button>
 
 </div>
 
 
 
-<!-- =========================================================
+<!-- =====================================================
      FOOTER
-     ========================================================= -->
+     ===================================================== -->
 
 <footer>
 
     <p>
-        &copy; 2026 Mijanul Islam | All Rights Reserved
+        &copy; 2026 Mijanul Islam |
+        All Rights Reserved
     </p>
 
 </footer>
 
 
 
-<!-- =========================================================
+<!-- =====================================================
      GALLERY JAVASCRIPT
-     ========================================================= -->
+     ===================================================== -->
 
 <script>
 
 document.addEventListener(
-    'DOMContentLoaded',
+    "DOMContentLoaded",
     function () {
 
 
-        /* =====================================================
-           FILTERING
-           ===================================================== */
+        /* ================================================
+           FILTER
+           ================================================ */
 
         const filterButtons =
-            document.querySelectorAll('.filter-btn');
+            document.querySelectorAll(
+                ".filter-btn"
+            );
+
 
         const cards =
-            document.querySelectorAll('.gallery-card');
+            document.querySelectorAll(
+                ".gallery-card"
+            );
 
 
         filterButtons.forEach(
             function (button) {
 
                 button.addEventListener(
-                    'click',
+                    "click",
                     function () {
+
 
                         filterButtons.forEach(
                             function (btn) {
-                                btn.classList.remove('active');
+
+                                btn.classList.remove(
+                                    "active"
+                                );
+
                             }
                         );
 
 
-                        this.classList.add('active');
+                        this.classList.add(
+                            "active"
+                        );
 
 
                         const filter =
@@ -780,17 +804,20 @@ document.addEventListener(
                         cards.forEach(
                             function (card) {
 
+
                                 if (
-                                    filter === 'all' ||
+                                    filter === "all" ||
                                     card.dataset.category === filter
                                 ) {
 
-                                    card.style.display = '';
+                                    card.style.display =
+                                        "";
 
                                 }
                                 else {
 
-                                    card.style.display = 'none';
+                                    card.style.display =
+                                        "none";
 
                                 }
 
@@ -805,49 +832,49 @@ document.addEventListener(
 
 
 
-        /* =====================================================
+        /* ================================================
            LIGHTBOX
-           ===================================================== */
+           ================================================ */
 
         const lightbox =
             document.getElementById(
-                'galleryLightbox'
+                "galleryLightbox"
             );
 
 
         const lightboxImage =
             document.getElementById(
-                'lightboxImage'
+                "lightboxImage"
             );
 
 
         const lightboxTitle =
             document.getElementById(
-                'lightboxTitle'
+                "lightboxTitle"
             );
 
 
         const lightboxLocation =
             document.getElementById(
-                'lightboxLocation'
+                "lightboxLocation"
             );
 
 
         const closeButton =
             document.querySelector(
-                '.lightbox-close'
+                ".lightbox-close"
             );
 
 
         const previousButton =
             document.querySelector(
-                '.lightbox-prev'
+                ".lightbox-prev"
             );
 
 
         const nextButton =
             document.querySelector(
-                '.lightbox-next'
+                ".lightbox-next"
             );
 
 
@@ -857,21 +884,22 @@ document.addEventListener(
 
 
 
-        /* Get currently visible photographs */
-
         function updateVisibleLinks() {
 
             visibleLinks =
                 Array.from(
                     document.querySelectorAll(
-                        '.gallery-card'
+                        ".gallery-card"
                     )
                 )
 
                 .filter(
                     function (card) {
 
-                        return card.style.display !== 'none';
+                        return (
+                            card.style.display !==
+                            "none"
+                        );
 
                     }
                 )
@@ -880,7 +908,7 @@ document.addEventListener(
                     function (card) {
 
                         return card.querySelector(
-                            '.gallery-image-link'
+                            ".gallery-image-link"
                         );
 
                     }
@@ -889,8 +917,6 @@ document.addEventListener(
         }
 
 
-
-        /* Display photograph */
 
         function showImage(index) {
 
@@ -915,55 +941,59 @@ document.addEventListener(
 
 
             const link =
-                visibleLinks[currentIndex];
+                visibleLinks[
+                    currentIndex
+                ];
 
 
             lightboxImage.src =
-                link.getAttribute('href');
+                link.getAttribute(
+                    "href"
+                );
 
 
             lightboxImage.alt =
-                link.querySelector('img').alt;
+                link.querySelector(
+                    "img"
+                ).alt;
 
 
             lightboxTitle.textContent =
-                link.dataset.title || '';
+                link.dataset.title || "";
 
 
             lightboxLocation.textContent =
-                link.dataset.location || '';
+                link.dataset.location || "";
 
 
             lightbox.classList.add(
-                'open'
+                "open"
             );
 
 
             lightbox.setAttribute(
-                'aria-hidden',
-                'false'
+                "aria-hidden",
+                "false"
             );
 
 
             document.body.classList.add(
-                'lightbox-open'
+                "lightbox-open"
             );
 
         }
 
 
 
-        /* Open photograph */
-
         document
             .querySelectorAll(
-                '.gallery-image-link'
+                ".gallery-image-link"
             )
             .forEach(
                 function (link) {
 
                     link.addEventListener(
-                        'click',
+                        "click",
                         function (event) {
 
                             event.preventDefault();
@@ -990,40 +1020,38 @@ document.addEventListener(
 
 
 
-        /* Close lightbox */
-
         function closeLightbox() {
 
             lightbox.classList.remove(
-                'open'
+                "open"
             );
 
 
             lightbox.setAttribute(
-                'aria-hidden',
-                'true'
+                "aria-hidden",
+                "true"
             );
 
 
             document.body.classList.remove(
-                'lightbox-open'
+                "lightbox-open"
             );
 
 
-            lightboxImage.src = '';
+            lightboxImage.src = "";
 
         }
 
 
 
         closeButton.addEventListener(
-            'click',
+            "click",
             closeLightbox
         );
 
 
         previousButton.addEventListener(
-            'click',
+            "click",
             function () {
 
                 showImage(
@@ -1035,7 +1063,7 @@ document.addEventListener(
 
 
         nextButton.addEventListener(
-            'click',
+            "click",
             function () {
 
                 showImage(
@@ -1047,10 +1075,8 @@ document.addEventListener(
 
 
 
-        /* Close by clicking outside image */
-
         lightbox.addEventListener(
-            'click',
+            "click",
             function (event) {
 
                 if (
@@ -1069,12 +1095,13 @@ document.addEventListener(
         /* Keyboard controls */
 
         document.addEventListener(
-            'keydown',
+            "keydown",
             function (event) {
+
 
                 if (
                     !lightbox.classList.contains(
-                        'open'
+                        "open"
                     )
                 ) {
 
@@ -1084,7 +1111,7 @@ document.addEventListener(
 
 
                 if (
-                    event.key === 'Escape'
+                    event.key === "Escape"
                 ) {
 
                     closeLightbox();
@@ -1093,7 +1120,7 @@ document.addEventListener(
 
 
                 if (
-                    event.key === 'ArrowLeft'
+                    event.key === "ArrowLeft"
                 ) {
 
                     showImage(
@@ -1104,7 +1131,7 @@ document.addEventListener(
 
 
                 if (
-                    event.key === 'ArrowRight'
+                    event.key === "ArrowRight"
                 ) {
 
                     showImage(
@@ -1117,10 +1144,12 @@ document.addEventListener(
         );
 
     }
+
 );
 
 </script>
 
 
 </body>
+
 </html>
